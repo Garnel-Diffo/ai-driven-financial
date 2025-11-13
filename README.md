@@ -1,137 +1,51 @@
-# Budget Buddy - AI-Powered Personal Finance Dashboard
+# Aurora Ledger – Intelligent Financial Command Center
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-blue)](https://budget-buddy-beta-version.onrender.com/)
+Aurora Ledger distills real-time market context, portfolio telemetry, and AI narration into a single workspace so finance teams can act decisively without juggling spreadsheets.
 
-> **Note: This is a beta version currently under active development. New features and updates are being added regularly.**
+## Overview
 
-## 🌟 Overview
+The application blends predictive models with expressive visualization to highlight emerging risk, surface opportunities, and capture institutional knowledge. Analysts receive narrative insights alongside raw metrics, while stakeholders gain a live window into financial performance.
 
-Budget Buddy is an AI-powered personal finance dashboard designed to help users manage their financial life with intelligent insights and intuitive tracking. Built with modern web technologies, it provides a comprehensive solution for personal financial management.
+## Highlights
 
-## ✨ Features
+- Holistic capital view that unifies balances, assets, liabilities, and planned cash flow.
+- Scenario forecasting with adjustable assumptions for rate changes, revenue phases, and expense shifts.
+- Insight engine that translates signals into clear next steps and contextual annotations.
+- Secure workspace design supporting role-based access and future multi-tenant deployment.
+- Responsive interface optimized for desktops and large-format dashboards.
 
-### Current Features (Beta)
-- 💰 **Balance Tracking** - Monitor your current account balances
-- 📊 **Net Worth Calculator** - Track your overall financial health
-- 🏠 **Asset Management** - Record and manage your assets
-- 🎯 **Income Goals** - Set and track your income objectives
-- 🤖 **AI-Powered Insights** - Get intelligent financial recommendations
+## Architecture Snapshot
 
-### Upcoming Features
-- 📈 Expense categorization and analysis
-- 📅 Budget planning and forecasting
-- 🔔 Smart notifications and alerts
-- 📊 Advanced financial analytics
-- 💳 Bank account integration
-- 🎨 Customizable dashboard themes
+- React + Vite application shell with modular layout components.
+- State driven by lightweight hooks and structured domain models.
+- Tailwind CSS theming extended with finance-specific palettes.
+- API integration layer prepared for both REST and streaming data.
 
-## 🚀 Tech Stack
+## Getting Started
 
-- **Frontend Framework:** React (Vite)
-- **Styling:** Tailwind CSS
-- **Deployment:** Render
-- **Build Tool:** Vite
-- **Package Manager:** npm
+1. Install Node.js 18+ and npm.
+2. Clone your fork of this repository.
+3. Run `npm install` to pull project dependencies.
+4. Launch the dev server with `npm run dev` and open the provided local URL.
 
-## 🛠️ Installation & Setup
+### Environment Tips
 
-### Prerequisites
-- Node.js (v16 or higher)
-- npm
+- Duplicate the provided `.env.example` file to `.env` and supply runtime configuration values as needed.
+- Use `npm run build` to produce optimized assets for deployment targets.
+- Run `npm run preview` to sanity-check the production bundle locally.
 
-### Local Development
+## Project Status
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/budget-buddy.git
-cd budget-buddy
-```
+Aurora Ledger is evolving toward a production-ready alpha release. Current priorities include expanding asset coverage, refining predictive heuristics, and introducing collaborative review tools.
 
-2. **Install dependencies**
-```bash
-npm install
-```
+## Contributing
 
-3. **Start the development server**
-```bash
-npm run dev
-```
+Contributions are encouraged—submit issues for UX improvements, AI enhancements, or documentation gaps. When opening a pull request, describe the change, include screenshots for UI updates, and reference any related discussions.
 
-4. **Open your browser**
-Navigate to `http://localhost:5173` to see the application.
+## License
 
-
-### 📱 Usage
-
-1. **Getting Started**
-   - Visit the [live demo](https://budget-buddy-beta-version.onrender.com/)
-   - Create your financial profile
-   - Add your current balance and assets
-
-2. **Adding Financial Data**
-   - Navigate to the balance section to input your current funds
-   - Use the asset tracker to record your valuable possessions
-   - Set income goals to track your financial objectives
-
-3. **AI Insights**
-   - View personalized recommendations based on your financial data
-   - Get insights on spending patterns and saving opportunities
-
-## 🎯 Roadmap
-
-### Phase 1 (Current - Beta)
-- [x] Basic balance tracking
-- [x] Net worth calculation
-- [x] Asset management
-- [x] Income goal setting
-
-### Phase 2 (Next Release)
-- [ ] Expense tracking and categorization
-- [ ] Budget creation tools
-- [ ] Financial goal tracking
-- [ ] Enhanced AI recommendations
-
-### Phase 3 (Future)
-- [ ] Bank integration
-- [ ] Investment tracking
-- [ ] Advanced analytics
-- [ ] Mobile app
-
-## 🤝 Contributing
-
-This project is currently in beta and under active development. Contributions are welcome!
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Contact & Support
-
-- **Live Demo:** [https://budget-buddy-beta-version.onrender.com/](https://budget-buddy-beta-version.onrender.com/)
-- **Issues:** Please report bugs and request features through GitHub Issues
-- **Developer:** [Nasim Rana Feroz]
-- **Email:** feroznasimrana@gmail.com
-
-## ⚠️ Beta Disclaimer
-
-This is a beta version of Budget Buddy. While fully functional, you may experience:
-- Occasional bugs or unexpected behavior
-- Features that are still being refined
-- Regular updates that may change the interface
-
-I appreciate your feedback  as I continue to improve the platform!
-
-## 🙏 Acknowledgments
-
-- Built with love using React and Tailwind CSS
-- Deployed on Render for seamless hosting
+This codebase is distributed under the MIT License. Refer to the `LICENSE` file for the complete terms.
 
 ---
 
-**Made with ❤️ for better financial management**
+Curate clarity. Forecast boldly. Operate with confidence.
